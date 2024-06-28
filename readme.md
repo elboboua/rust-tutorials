@@ -24,3 +24,12 @@ Following along with the Rust Book at https://doc.rust-lang.org/book
 -   `cargo run` builds and runs the project
 -   `cargo check` checks the project for errors without building it
 -   `cargo build --release` builds the project in release mode
+
+# Chapter 2: Programming a Guessing Game
+
+-   `rand::Rng` is a trait that defines methods that random number generators implement
+-   input dependencies in `Cargo.toml` under `[dependencies]` and run `cargo build` to download and compile them
+-   expressions that return a Result can be handled with `match`
+-   `std::cmp::Ordering` is an enum with variants `Less`, `Greater`, and `Equal`
+-   `loop` creates an infinite loop
+-   \_ is a catchall pattern that matches any value
